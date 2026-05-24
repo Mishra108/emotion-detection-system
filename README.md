@@ -5,7 +5,9 @@ The system analyzes user text and predicts the underlying emotion in real time.
 
 
 🌐 **Live Demo:**  
-https://emotiondetectionmodel.streamlit.app/
+
+👉 [Click Here to Use the App](https://emotiondetectionmodel.streamlit.app/)
+
 
 ---
 
