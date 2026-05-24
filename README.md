@@ -1,39 +1,41 @@
-# Emotion Detection System 🎭
+# 🎭 Emotion Detection System
 
-An AI-powered NLP Emotion Detection System built using Machine Learning and Streamlit.
+An AI-powered Emotion Detection Web App built using Natural Language Processing (NLP), Machine Learning, and Streamlit.  
+The system analyzes user text and predicts the underlying emotion in real time.
 
-## 🚀 Live Demo
 
-🌐 Live App: https://emotiondetectionmodel.streamlit.app/
+🌐 **Live Demo:**  
+https://emotiondetectionmodel.streamlit.app/
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
-- Detects emotions from text
+- Detect emotions from text
 - Real-time prediction
-- Clean Streamlit UI
-- NLP preprocessing pipeline
-- Supports multiple emotions:
-  - Joy 😊
-  - Sadness 😔
-  - Anger 😡
-  - Fear 😨
-  - Love ❤️
-  - Surprise 😲
+- Simple and clean UI
+- NLP text preprocessing
+- Multiple emotion support
+
+### Supported Emotions
+
+- 😊 Joy
+- 😔 Sadness
+- 😡 Anger
+- 😨 Fear
+- ❤️ Love
+- 😲 Surprise
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python
-- NLP
-- Scikit-learn
-- TF-IDF Vectorizer
-- SVM (LinearSVC)
-- NLTK
 - Streamlit
-- Joblib
+- Scikit-learn
+- NLTK
+- TF-IDF Vectorizer
+- LinearSVC (SVM)
 
 ---
 
@@ -42,29 +44,26 @@ An AI-powered NLP Emotion Detection System built using Machine Learning and Stre
 ```bash
 Emotion-Detection-System/
 
-│── app.py
-│── emotion_model.pkl
-│── tfidf_vectorizer.pkl
-│── requirements.txt
-│── README.md
-│── .gitignore
+├── app.py
+├── emotion_model.pkl
+├── tfidf_vectorizer.pkl
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## 🧠 Model Details
+## 🧠 How It Works
 
-The model uses:
-
-- TF-IDF Vectorization
-- N-grams
-- LinearSVC Classifier
-- Lemmatization
-- Negation Handling
+1. User enters text
+2. Text is cleaned and processed
+3. TF-IDF converts text into vectors
+4. ML model predicts the emotion
 
 ---
 
-## 📸 Sample Inputs
+## 💡 Example Inputs
 
 ```text
 I am feeling amazing today
@@ -86,4 +85,6 @@ I love spending time with her
 
 ## 👨‍💻 Author
 
-Made with ❤️ by Mishra Ji
+Made with ❤️ by Prem Mishra
+
+GitHub: https://github.com/Mishra108
